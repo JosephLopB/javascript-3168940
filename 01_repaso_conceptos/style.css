@@ -1,0 +1,32 @@
+*{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+}
+
+#img1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 50%;
+}
+
+#btns{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
