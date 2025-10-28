@@ -129,3 +129,51 @@ pl4.addEventListener("click", () => {
   pl5.addEventListener("click", () => {
     pl5.classList.add("desaparecer");
   });
+
+/*   Animar escenarios */
+
+const escena = document.querySelectorAll(".escena");
+const nx = document.querySelector("#next-btn");
+const bk = document.querySelector("#prev-btn");
+const miniaturas = document.querySelectorAll(".pnt")
+let indice = 0;
+
+console.log(escena)
+console.log(nx)
+console.log(bk)
+console.log(miniaturas)
+
+/* funciones */
+function cambiarEsc(m){
+  /* asigna la escena a todas las pantallas */
+  for (let f = 0; f < escena.length; f++) {
+    escena[f].classList.remove("activa")
+    miniaturas[f].classList.remove("active")
+
+  }
+
+escena[m].classList.add("activa")
+miniaturas[m].classList.add("active")
+indice[m]
+
+}
+
+cambiarEsc(0);
+
+bk.addEventListener("click", function(){
+  indice = indice - 1
+  if(indice < 0){
+    indice = escena.length - 1
+  }
+  cambiarEsc(indice)
+
+})
+
+nx.addEventListener("click", function(){
+  indice = indice + 1
+  if(indice >= escena.length){
+    indice = 0
+  }
+  cambiarEsc(indice)
+
+})
