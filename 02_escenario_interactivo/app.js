@@ -177,3 +177,13 @@ nx.addEventListener("click", function(){
   cambiarEsc(indice)
 
 })
+
+/* miniaturas */
+
+miniaturas.forEach(function(miniaturas,i){
+  miniaturas.addEventListener("click", function(){
+    cambiarEsc(i);
+  })
+});
+
+cambiarEsc(0);
