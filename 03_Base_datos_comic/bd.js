@@ -11,20 +11,20 @@ let comic = {
   "personajes": [
     {
     "nombre" : "Joe Arroyo ",
-    "descripcion" : "Personaje principal. Cantante, autor y compsitor",
-    "imagen" : "src/rafael adulto.PNG",
+    "descripción" : "Personaje principal. Cantante, autor y compsitor",
+    "imagen" : "Personaje 2.png",
     },
 
     {
     "nombre" : "Joe Arroyo Niño",
-    "descripcion" : "Su origen y autodescubrimiento",
-    "imagen" : "src/rafael niño.PNG",
+    "descripción" : "Su origen y autodescubrimiento",
+    "imagen" : "Personaje 3.png",
     },
 
     {
     "nombre" : "Manuel Villanueva",
-    "descripcion" : "Personaje importante en los inicios de la carrera artistica del Joe Arroyo",
-    "imagen" : "src/israel romero.PNG",
+    "descripción" : "Personaje importante en los inicios de la carrera artistica del Joe Arroyo",
+    "imagen" : "Personaje4.png",
     },
 ], 
 
