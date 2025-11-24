@@ -1,0 +1,81 @@
+:root { --color-claro: #FFFDE8;
+        --caf-base: #552714;
+        --caf_base:#EF9069;
+        --ver-light: #5ED5B7;
+        --ver-oscuro: #0C5555;
+        --ver-claro: #37A2A1;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    background-image: url(Bg_Sonarte_Lgth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* backdrop-filter: opacity(50%); */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 20px;
+}
+
+.logo-placeholder {
+    width: 150px;
+    height: 50px;
+    background-image: url(Logo.png);
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--caf-base);
+    font-weight: bold;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-actions a {
+    text-decoration: none;
+    color: var(--caf-base);
+}
+
+.location {
+    background-color: var(--color-claro);
+    padding: 0.5rem;
+    border-radius: 4px;
+}

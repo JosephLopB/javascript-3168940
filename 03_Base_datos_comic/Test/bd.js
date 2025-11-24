@@ -1,31 +1,30 @@
-let comic = { 
+let comic = {
 
-  "nombreComic": "Joe Arroyo: El centurión de la noche",
+  "nombreComic": "El centurion de la noche",
   "numeroCapitulos": "3",
   "genero": 'Ficción',
   "sipnosis": " Desde su origen humilde hasta la sima del exito, encontramos una lucha interna por su entorno, el cual le da un sentido y proposito a su arte ",
   "autores": ["Joseph López"],
-  "portada": "Personaje1.png",
+  "portada": "src/fondo.png",
   "year": 2025,
-
   
   "personajes": [
     {
     "nombre" : "Joe Arroyo ",
-    "descripción" : "Personaje principal. Cantante, autor y compsitor",
-    "imagen" : "Personaje 2.png",
+    "descripcion" : "Personaje principal. Cantante, autor y compsitor",
+    "imagen" : "src/rafael adulto.PNG",
     },
 
     {
     "nombre" : "Joe Arroyo Niño",
-    "descripción" : "Su origen y autodescubrimiento",
-    "imagen" : "Personaje 3.png",
+    "descripcion" : "Su origen y autodescubrimiento",
+    "imagen" : "src/rafael niño.PNG",
     },
 
     {
     "nombre" : "Manuel Villanueva",
-    "descripción" : "Personaje importante en los inicios de la carrera artistica del Joe Arroyo",
-    "imagen" : "Personaje4.png",
+    "descripcion" : "Personaje importante en los inicios de la carrera artistica del Joe Arroyo",
+    "imagen" : "src/israel romero.PNG",
     },
 ], 
 

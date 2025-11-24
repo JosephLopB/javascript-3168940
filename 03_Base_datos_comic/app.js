@@ -1,3 +1,21 @@
+const infoComic = document.querySelector(".hero-content")
+
+infoComic.innerHTML = "";
+console.log(comic.general)
+
+infoComic.innerHTML = `
+            <div class="hero-text">
+                <h1>${comic.nombreComic}</h1>
+                <p>${comic.sipnosis}</p>
+                <button class="cta-button">Ver Comic</button>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-placeholder"  style="background-image:url(${comic.portada})"></div> 
+            </div>
+    `
+
+const imgPort = document.querySelector(".hero-image")
+
 const cardPersonajes = document.querySelector(".card-personaje")
 
 cardPersonajes.innerHTML = "";
