@@ -1,4 +1,4 @@
-:root { --color-claro: #FFFDE8;
+ :root { --color-claro: #FFFDE8;
         --caf-base: #552714;
         --caf_base:#EF9069;
         --ver-light: #5ED5B7;
@@ -18,7 +18,7 @@ body {
     color: #333;
     background-color: #fff;
     background-image: url(Bg_Sonarte_Lgth.png);
-    background-size: cover;
+    background-size: cover; 
     background-repeat: no-repeat;
     /* backdrop-filter: opacity(50%); */
 }
@@ -125,15 +125,25 @@ body {
     background-size: contain;
 }
 
+
+
+
 .p-section {
     padding: 4rem 0;
+}
+
+.contains{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .section-title {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
-    color: black;
+    color: var(--caf-baseç);
 } 
 .card-personaje {
     display: flex;
@@ -144,7 +154,8 @@ body {
 
 .card-personaje {
     text-align: center;
-    background-color: var(--color-oscuro);
+    background-color: var(--caf_base);
+    border-radius: 10%;
     width: 90%;
     height: 90%;
 }
@@ -163,6 +174,12 @@ body {
 
 .personaje img {
     max-width: 200px;
+}
+
+video{
+    width: 800px; 
+    height: 450px; 
+    background-color: white;
 }
 
 
@@ -194,7 +211,7 @@ body {
 
 .chapters {
     width: 100%;
-    height: 250px;
+    height: 350px;
     color: var(--color-claro);
     margin-bottom: 1rem;
 }

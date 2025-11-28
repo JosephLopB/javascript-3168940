@@ -168,7 +168,12 @@ body {
 
 
 
-
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .chapter-section {
     padding: 4rem 0;
@@ -185,7 +190,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     background-color: var(--color-oscuro);
     width: 90%;
     height: 90%;
@@ -193,7 +198,8 @@ body {
 
 .card-chapter {
     text-align: center;
-    background-color: var(--ver-oscuro);
+    background-color: var(--ver-claro);
+    border-radius: 10%;
 }
 
 .chapters {
@@ -206,6 +212,12 @@ body {
 .personaje h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+}
+
+video{
+    width: 800px; 
+    height: 450px; 
+    background-color: white;
 }
 
 

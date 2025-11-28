@@ -1,3 +1,5 @@
+import { comic } from "./bd.js";
+
 const InfoComic = document.querySelector('.info-comic');
 const numeroPersonajes = document.querySelector('.card-personajes');
 
